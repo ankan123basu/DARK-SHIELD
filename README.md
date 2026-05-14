@@ -13,6 +13,8 @@
   <h3>Immersive Cybersecurity Operations Center (SOC)</h3>
   <p>A high-fidelity, real-time threat intelligence and digital forensics platform engineered for enterprise-grade incident response.</p>
 </div>
+<img width="1918" height="957" alt="image" src="https://github.com/user-attachments/assets/623ff8a4-9ff9-47be-ab73-5bf06c3efac6" />
+
 
 ---
 
