@@ -4,9 +4,15 @@
 ![Tech Stack](https://img.shields.io/badge/Stack-React_18_%7C_Spring_Boot_3_%7C_MongoDB-282c34?style=for-the-badge)
 ![AI Integrations](https://img.shields.io/badge/AI_Engine-AEGIS__PRIME_(Llama_3.3_70B)-ff003c?style=for-the-badge)
 
-**DarkShield** is an elite, immersive Cyber Threat Intelligence (CTI) and Digital Forensics platform built for modern Security Operations Centers (SOC). It features real-time WebSocket communication, live global threat tracking, and is powered by **AEGIS-PRIME**, an omniscient AI Security Analyst.
+<div align="center">
+  <h1 style="color: #00e5ff; font-family: 'Orbitron', sans-serif;">🛡️ DARKSHIELD</h1>
+  <h3>Immersive Cybersecurity Operations Center (SOC)</h3>
+  <p>An elite, high-fidelity Cyber Threat Intelligence (CTI) and Digital Forensics platform engineered for enterprise-grade incident response. It features real-time WebSocket communication, live global threat tracking, and is powered by <strong>AEGIS-PRIME</strong>, an omniscient AI Security Analyst.</p>
+</div>
 
-Created by **Ankan Basu** (Expert Java Full Stack Developer & Cybersecurity Architect).
+<p align="center">Created by <b>Ankan Basu</b> (Expert Java Full Stack Developer & Cybersecurity Architect).</p>
+
+<img width="1918" height="957" alt="image" src="https://github.com/user-attachments/assets/623ff8a4-9ff9-47be-ab73-5bf06c3efac6" />
 
 ---
 
