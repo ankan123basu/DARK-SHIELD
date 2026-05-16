@@ -2,12 +2,13 @@ import { useAuth } from '../context/AuthContext';
 import { NavLink, useNavigate } from 'react-router-dom';
 
 const links = [
-  { path: '/dashboard', label: 'Dashboard',    icon: '◈' },
+  { path: '/dashboard', label: 'Dashboard',    icon: '◈'  },
   { path: '/globe',     label: 'Threat Globe', icon: '🌐' },
   { path: '/threats',   label: 'Threats',      icon: '⚡' },
-  { path: '/incidents', label: 'Incidents',    icon: '⚠' },
-  { path: '/assets',    label: 'Assets',       icon: '◉' },
+  { path: '/incidents', label: 'Incidents',    icon: '⚠'  },
+  { path: '/assets',    label: 'Assets',       icon: '◉'  },
   { path: '/chat',      label: 'SOC Comms',    icon: '💬' },
+  { path: '/ai',        label: 'AI Analyst',   icon: '🤖' },
 ];
 
 export default function Sidebar() {

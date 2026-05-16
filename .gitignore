@@ -1,4 +1,11 @@
 # =========================
+# Secrets — NEVER commit!
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
 # Backend (Spring Boot/Java)
 # =========================
 target/
@@ -67,3 +74,6 @@ build/
 *.sln
 *.sw?
 *.local
+
+# Uploaded files (generated at runtime)
+uploads/

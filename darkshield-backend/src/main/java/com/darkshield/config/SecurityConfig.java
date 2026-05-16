@@ -84,8 +84,10 @@ public class SecurityConfig {
                         .requestMatchers("/api/auth/**").permitAll()
                         .requestMatchers("/api/public/**").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        // WebSocket handshake — must be public for SockJS
+                        // WebSocket handshake
                         .requestMatchers("/ws-chat/**").permitAll()
+                        // Static uploads (avatars)
+                        .requestMatchers("/uploads/**").permitAll()
 
                         // Admin-only endpoints
                         .requestMatchers("/api/users/**").hasAuthority("ROLE_ADMIN")
@@ -97,6 +99,10 @@ public class SecurityConfig {
                         .requestMatchers("/api/incidents/*/eradicate").hasAnyAuthority("ROLE_HUNTER", "ROLE_ADMIN")
                         .requestMatchers("/api/incidents/*/recover").hasAnyAuthority("ROLE_HUNTER", "ROLE_ADMIN")
                         .requestMatchers("/api/incidents/*/resolve").hasAnyAuthority("ROLE_HUNTER", "ROLE_ADMIN")
+
+                        // Chat history & AI — all authenticated roles
+                        .requestMatchers("/api/chat/**").authenticated()
+                        .requestMatchers("/api/ai/**").authenticated()
 
                         // All other authenticated endpoints
                         .anyRequest().authenticated()

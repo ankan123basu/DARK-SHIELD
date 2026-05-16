@@ -9,6 +9,7 @@ import IncidentsPage from './pages/IncidentsPage';
 import AssetsPage from './pages/AssetsPage';
 import GlobeViewPage from './pages/GlobeViewPage';
 import ChatPage from './pages/ChatPage';
+import AIAnalystPage from './pages/AIAnalystPage';
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
@@ -29,6 +30,7 @@ function AppRoutes() {
       <Route path="/assets" element={<ProtectedRoute><AssetsPage /></ProtectedRoute>} />
       <Route path="/globe" element={<ProtectedRoute><GlobeViewPage /></ProtectedRoute>} />
       <Route path="/chat" element={<ProtectedRoute><ChatPage /></ProtectedRoute>} />
+      <Route path="/ai" element={<ProtectedRoute><AIAnalystPage /></ProtectedRoute>} />
     </Routes>
   );
 }

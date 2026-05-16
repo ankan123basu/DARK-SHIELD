@@ -32,3 +32,7 @@ build/
 ### Mac/Windows OS ###
 .DS_Store
 Thumbs.db
+
+### Environment Variables ###
+.env
+run.ps1
